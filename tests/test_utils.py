@@ -9,12 +9,6 @@ import pandas as pd
 import pytest
 from sklearn.linear_model import LinearRegression
 
-import sys
-import os
-
-# Add src to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-
 from utils import (
     calculate_model_metrics,
     clean_dataframe,
